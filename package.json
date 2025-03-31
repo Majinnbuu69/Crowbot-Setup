@@ -4,6 +4,8 @@
   "description": "Crowbot-Remade",
   "main": "index.js",
   "scripts": {
+    "scripts": {
+    "start": "node --experimental-fetch index.js",
     "start": "node index.js"
   },
   "dependencies": {
@@ -27,5 +29,6 @@
     "randomstring": "^1.2.1",
     "request": "^2.88.2",
     "superagent": "^6.1.0"
+    
   }
 }
